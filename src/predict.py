@@ -8,3 +8,4 @@ def predict_transaction(features):
     prediction = model.predict(features)
     prob = model.predict_proba(features)[0][1]
     return prediction[0], prob
+
