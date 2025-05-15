@@ -11,10 +11,10 @@ for i in range(1, 29):
     val = st.number_input(f"V{i}", -20.0, 20.0, 0.0)
     features.append(val)
 
-time_val = st.number_input("Time (scaled)", -10.0, 10.0, 0.0)
+time_val = st.number_input("Time (scaled)", -100.0, 1000.0, 0.0)
 features.append(time_val)
 
-amount_val = st.number_input("Amount (scaled)", -10.0, 10.0, 0.0)
+amount_val = st.number_input("Amount (scaled)", -100.0, 100.0, 0.0)
 features.append(amount_val)
 
 if st.button("Predict"):
