@@ -22,26 +22,6 @@ This project aims to detect fraudulent credit card transactions using machine le
 
 ---
 
-## 📂 Project Structure
-
-credit-card-fraud-detection/
-│
-├── data/
-│ └── creditcard.csv # Input dataset
-│
-├── src/
-│ ├── data_preprocessing.py # Data loading & preprocessing
-│ ├── train_model.py # Model training & saving
-│ ├── evaluate_model.py # Evaluation metrics and visuals
-│ └── predict.py # Prediction function for UI
-│
-├── run_train.py # Script to preprocess, train, evaluate
-├── model.pkl # Saved trained model
-├── app.py # Streamlit UI
-├── requirements.txt # Python dependencies
-└── README.md # Project overview
-
----
 
 ## 📊 Dataset
 
